@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  mvc:
+    problemdetails:
+      enabled: true
+  jpa:
+    open-in-view: false
+
+server:
+  servlet:
+    context-path: /test
