@@ -1,4 +1,4 @@
-package com.github.test.adapter.outbound.persistence.entity;
+package com.github.agro.adapter.outbound.persistence.entity;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;

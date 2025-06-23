@@ -1,4 +1,4 @@
-package com.github.test.adapter.outbound.persistence.repository;
+package com.github.agro.adapter.outbound.persistence.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface PersonRepository extends JpaRepository<NotificationEntity, UUID> {
+public interface PersonRepository extends JpaRepository<PersonRepository, UUID> {
 
 }

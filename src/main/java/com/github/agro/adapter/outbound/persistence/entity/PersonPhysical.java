@@ -1,9 +1,12 @@
-package com.github.test.adapter.outbound.persistence.entity;
+package com.github.agro.adapter.outbound.persistence.entity;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+
+import com.github.agro.core.domain.enumerated.Gender;
+import com.github.agro.core.domain.enumerated.MaritalStatus;
 
 import java.time.LocalDate;
 

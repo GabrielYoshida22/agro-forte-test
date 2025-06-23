@@ -1,10 +1,11 @@
-package com.github.test.adapter.outbound.persistence.entity;
+package com.github.agro.adapter.outbound.persistence.entity;
 
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
