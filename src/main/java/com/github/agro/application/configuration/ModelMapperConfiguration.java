@@ -1,4 +1,4 @@
-package com.github.test.application.configuration;
+package com.github.agro.application.configuration;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

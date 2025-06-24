@@ -9,6 +9,16 @@ spring:
   jpa:
     open-in-view: false
 
-server:
-  servlet:
-    context-path: /test
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+
+logging:
+  level:
+    org.springframework: TRACE
+    org.springdoc: TRACE
+    org.springframework.web: TRACE

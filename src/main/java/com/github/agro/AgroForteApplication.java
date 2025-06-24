@@ -1,4 +1,4 @@
-package com.github.notification;
+package com.github.agro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AgroForteApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(com.github.notification.AgroForteApplication.class, args);
+        SpringApplication.run(com.github.agro.AgroForteApplication.class, args);
     }
 
 }

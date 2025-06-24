@@ -7,9 +7,13 @@ import jakarta.persistence.Enumerated;
 
 import com.github.agro.core.domain.enumerated.Gender;
 import com.github.agro.core.domain.enumerated.MaritalStatus;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDate;
 
+@Setter
+@Getter
 @Entity
 @DiscriminatorValue("FISICA")
 public class PersonPhysical extends Person {
